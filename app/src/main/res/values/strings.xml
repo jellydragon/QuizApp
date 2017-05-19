@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="q1">Comment s\'appelle ce plat alsacien ?</string>
+    <string name="q2">Combien de types de viande faut-il pour faire un Bibeleskaes ?</string>
+    <string name="q3">Quels sont les ingredients obligatoires pour une tarte flambée traditionnelle ?</string>
+    <string name="q4">Comment s\'appelle ce plat alsacien ?</string>
+    <string name="q5">Lesquels de ces vins sont alsaciens ?</string>
+    <string name="q6">Comment sont appelés les petits gateaux de Noël alsaciens ?</string>
+    <string name="q7">Quel est l\'ingrédient principal dans le Frescheschaenkel ?</string>
+
+    <string name="q1_a1">Choucroute</string>
+    <string name="q1_a2">Tarte Flambée</string>
+    <string name="q1_a3">Baeckeoffe</string>
+    <string name="q1_a4">Bibeleskaes</string>
+
+    <string name="q2_a1">0</string>
+
+    <string name="q3_a1">Lardons</string>
+    <string name="q3_a2">Chou</string>
+    <string name="q3_a3">Crème fraiche</string>
+    <string name="q3_a4">Onions</string>
+    <string name="q3_a5">Pommes de terre</string>
+
+    <string name="q4_a1">Spaetzle</string>
+    <string name="q4_a2">Knoepfle</string>
+    <string name="q4_a3">Kougelhopf</string>
+
+    <string name="q5_a1">Riesling</string>
+    <string name="q5_a2">Edelzwicker</string>
+    <string name="q5_a3">Gewurtztraminer</string>
+    <string name="q5_a4">Sauternes</string>
+
+    <string name="q6_a1">Bridili</string>
+    <string name="q6_a2">Brololo</string>
+    <string name="q6_a3">Bredele</string>
+    <string name="q6_a4">Brudulu</string>
+
+    <string name="q7_a1">cuisses de grenouilles</string>
+
+    <string name="welcome">Bienvenue dans le Quiz Alsacien !</string>
+    <string name="your_score">Votre résultat est</string>
+    <string name="restart">Recommencer</string>
+    <string name="next">Suivant</string>
+    <string name="start">Commencer</string>
+
+    <string name="result1">Vous êtes un veritable alsacien !</string>
+    <string name="result2">Vous êtes un amoureux de l\'Alsace. Encore un effort !</string>
+    <string name="result3">Vous connaissez bien l\'Alsace, mais il vous reste encore des secrets à découvrir !</string>
+    <string name="result4">Vous ne connaissez pas grand chose à l\'Alsace, une visite s\'impose !</string>
+    <string name="app_name">Quiz Alsacien</string>
+
+
+</resources>

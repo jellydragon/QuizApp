@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="medium_vertical">16dp</dimen>
+    <dimen name="q_txtsize">24sp</dimen>
+    <dimen name="horizontal_m">16dp</dimen>
+    <dimen name="small_vertical">8dp</dimen>
+    <dimen name="button_txtsize">16sp</dimen>
+
+
+</resources>
