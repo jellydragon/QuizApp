@@ -48,6 +48,10 @@
     <string name="result3">Vous connaissez bien l\'Alsace, mais il vous reste encore des secrets à découvrir !</string>
     <string name="result4">Vous ne connaissez pas grand chose à l\'Alsace, une visite s\'impose !</string>
     <string name="app_name">Quiz Alsacien</string>
+    <string name="well_played">Bien joué !</string>
+    <string name="try_again">Essayez encore une fois ?</string>
+    <string name="hint_enter_number">Saisissez un nombre</string>
+    <string name="hint_enter_name">Saisissez le nom</string>
 
 
 </resources>

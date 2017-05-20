@@ -10,37 +10,36 @@
         android:layout_height="wrap_content"
         tools:context="com.example.android.quizapp.MainActivity">
 
-        <!-- - - - - - - Question   -->
-
+        <!-- - - - - - - Question -->
         <LinearLayout
             android:id="@+id/q_text_img"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/medium_vertical"
-            android:layout_marginTop="@dimen/medium_vertical"
             android:layout_marginLeft="@dimen/horizontal_m"
             android:layout_marginRight="@dimen/horizontal_m"
+            android:layout_marginTop="@dimen/medium_vertical"
+            android:gravity="center_horizontal"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/question_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textStyle="bold"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="@dimen/medium_vertical"
                 android:text="@string/welcome"
-                android:textColor="@android:color/black"
                 android:textAlignment="center"
+                android:textColor="@android:color/black"
                 android:textSize="@dimen/q_txtsize"
-                />
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/img_view"
                 android:layout_width="wrap_content"
                 android:layout_height="200dp"
-                android:src="@drawable/alsace"
-                />
+                android:scaleType="fitCenter"
+                android:src="@drawable/alsace" />
 
         </LinearLayout>
 
@@ -52,19 +51,17 @@
             android:layout_below="@id/q_text_img"
             android:orientation="vertical">
 
-
             <EditText
                 android:id="@+id/user_input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/horizontal_m"
                 android:layout_marginRight="@dimen/horizontal_m"
-                android:visibility="gone"
+                android:hint="@string/hint_enter_number"
                 android:inputType="number"
-                />
+                android:visibility="gone" />
 
             <!--Q1 answers-->
-
             <RelativeLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -79,7 +76,6 @@
                     android:orientation="vertical"
                     android:visibility="gone">
 
-
                     <RadioButton
                         android:id="@+id/q1_a1"
                         android:layout_width="wrap_content"
@@ -90,30 +86,22 @@
                         android:id="@+id/q1_a2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/q1_a2"
-
-                        />
+                        android:text="@string/q1_a2" />
 
                     <RadioButton
                         android:id="@+id/q1_a3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/q1_a3"
-
-                        />
+                        android:text="@string/q1_a3" />
 
                     <RadioButton
                         android:id="@+id/q1_a4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/q1_a4"
-
-                        />
-
+                        android:text="@string/q1_a4" />
 
                 </RadioGroup>
             </RelativeLayout>
-
 
             <!--Q3 answers-->
             <RelativeLayout
@@ -122,10 +110,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/horizontal_m"
                 android:gravity="center_horizontal"
-                android:visibility="gone"
-
-                >
-
+                android:visibility="gone">
 
                 <CheckBox
                     android:id="@+id/q3_a1"
@@ -148,9 +133,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_below="@id/q3_a2"
-                    android:text="@string/q3_a3"
-
-                    />
+                    android:text="@string/q3_a3" />
 
                 <CheckBox
                     android:id="@+id/q3_a4"
@@ -158,9 +141,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_below="@id/q3_a3"
-                    android:text="@string/q3_a4"
-
-                    />
+                    android:text="@string/q3_a4" />
 
                 <CheckBox
                     android:id="@+id/q3_a5"
@@ -168,14 +149,11 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_below="@id/q3_a4"
-                    android:text="@string/q3_a5"
-
-                    />
+                    android:text="@string/q3_a5" />
 
             </RelativeLayout>
 
             <!--Q4 answers-->
-
             <RelativeLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -212,7 +190,6 @@
             </RelativeLayout>
 
             <!--Q5 answers-->
-
             <RelativeLayout
                 android:id="@+id/q5_answers"
                 android:layout_width="fill_parent"
@@ -242,9 +219,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_below="@id/q5_a2"
-                    android:text="@string/q5_a3"
-
-                    />
+                    android:text="@string/q5_a3" />
 
                 <CheckBox
                     android:id="@+id/q5_a4"
@@ -252,9 +227,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_below="@id/q5_a3"
-                    android:text="@string/q5_a4"
-
-                    />
+                    android:text="@string/q5_a4" />
 
             </RelativeLayout>
 
@@ -263,9 +236,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/horizontal_m"
-                android:gravity="center_horizontal"
-
-                >
+                android:gravity="center_horizontal">
 
                 <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
                     android:id="@+id/q6_answers"
@@ -305,7 +276,6 @@
 
 
         <!-- - - - - -  SUBMIT BUTTON - - - - - -  -->
-
         <Button
             android:id="@+id/button_next"
             android:layout_width="wrap_content"
@@ -314,14 +284,11 @@
             android:layout_below="@id/answer_field"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="@dimen/small_vertical"
+            android:background="@color/colorButton"
             android:onClick="NextQuestion"
             android:padding="@dimen/small_vertical"
             android:text="@string/start"
-            android:textSize="@dimen/button_txtsize"
-            android:background="@color/colorButton"
-
-            />
-
+            android:textSize="@dimen/button_txtsize" />
 
     </RelativeLayout>
 </ScrollView>
